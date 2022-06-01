@@ -1,4 +1,4 @@
-package loops;
+package exercicios.loops;
 
 import java.util.Scanner;
 
@@ -12,18 +12,21 @@ public class Ex1_NomeEIdade {
     while(true) {
       System.out.println("Nome: ");
       nome = scan.next();
-
-      if (nome.equals("0")) {
+      
+      if (nome.equals("0")){
         break;
-      }
+      }  
 
       System.out.println("idade: ");
       idade = scan.nextInt();
 
       System.out.println("Nome: " + nome + "-idade " + idade);
 
+     }
+
       scan.close();
-    }
+    
  }
+
 } 
   
